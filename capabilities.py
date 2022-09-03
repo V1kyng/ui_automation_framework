@@ -17,8 +17,13 @@ class Capabilities:
 
     def get_android_capabilities(self, device):
         if device == 'real device':
-            return dict(platformName="android", platformVersion='10.0', deviceName='Pixel_3a_API_29',
-                        noReset=True, fullReset=False, app=self.ANDROID_APK_PATH, appPackage="ru.mts.smartmed.dev",
+            return dict(platformName="android",
+                        platformVersion='10.0',
+                        deviceName='Pixel_3a_API_29',
+                        noReset=True,
+                        fullReset=False,
+                        app=self.ANDROID_APK_PATH,
+                        appPackage="ru.mts.smartmed.dev",
                         appActivity="droid.telemed.mts.ru.telemed.ui.activities.SplashScreenActivity")
 
         elif device == 'bs':
@@ -36,11 +41,12 @@ class Capabilities:
                 "noReset": False,
                 "autoDismissAlerts": True
             }
+
             return android_bs_desired_caps
 
     def get_ios_capabilities(self, device):
         if device == 'simulator':
-            return dict(platformName="ios", platformVersion='14.0', deviceName='iPhone 11',
+            return dict(platformName="ios", platformVersion='15.5', deviceName='iPhone X',
                         app=f'{os.popen("pwd").read().rstrip()}/data/apps/iOS-Simulator-NativeDemoApp-0.2.1.app',
                         automationName='XCUITest')
         elif device == 'real device':
@@ -49,7 +55,7 @@ class Capabilities:
                         app=f'{os.popen("pwd").read().rstrip()}/data/apps/iOS-RealDevice-NativeDemoApp-0.2.1.ipa',
                         automationName='XCUITest')
         elif device == 'bitrise':
-            return dict(platformName="ios", platformVersion='13.0', deviceName='iPhone-11',
+            return dict(platformName="ios", platformVersion='15.5', deviceName='iPhone X',
                         udid='E04A6F53-4C3B-4810-B210-DD2015D0D064', useNewWDA=True,
                         app=f'{os.popen("pwd").read().rstrip()}/data/apps/iOS-Simulator-NativeDemoApp-0.2.1.app',
                         automationName='XCUITest')
@@ -91,6 +97,7 @@ class Capabilities:
                 'noReset': True
             }
             return desired_caps
+
         elif app == 'android' and device == "bs":
             desired_caps = {
                 "browserstack.user": "mihajlichenkova_qw6BhZ",

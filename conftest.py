@@ -1,14 +1,15 @@
 import os
 
-from ui_framework.capabilities import Capabilities
 import pytest
 from appium import webdriver as appium_driver
+
 from logger import get_logger
+from ui_framework.capabilities import Capabilities
 
 logger = get_logger()
 
 
-def android_device_name():
+def android_device_name() -> str:
     if os.getenv('PYTEST_XDIST_WORKER') == 'gw0':
         return 'emulator-5554'
     elif os.getenv('PYTEST_XDIST_WORKER') == 'gw1':
@@ -41,6 +42,7 @@ def init_driver_session(app, device):
     desired_caps = {}
     driver = None
 
+    logger.info("Initiating Appium driver")
     if os.getenv('PYTEST_XDIST_WORKER'):
         capabilities.get_xdist_capabilities(app, device)
 
@@ -52,8 +54,6 @@ def init_driver_session(app, device):
         logger.debug("Prepare Android capabilities")
         desired_caps = capabilities.get_android_capabilities(device)
 
-    logger.info("Initiating Appium driver")
-
     if device == "bs":
         logger.debug("Connecting to browserstack")
         print("Connecting to browserstack")
@@ -63,10 +63,12 @@ def init_driver_session(app, device):
             desired_capabilities=desired_caps)
         logger.debug("Connection success")
         print("Connection success")
+
     elif device != "bs":
         driver = appium_driver.Remote("http://127.0.0.1:4723/wd/hub", desired_caps)
 
     logger.info("Initiated successfully")
+
     driver.implicitly_wait(5)
     print("Driver setup success")
     return driver

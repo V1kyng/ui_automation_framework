@@ -12,7 +12,7 @@ class BaseCapDataGen:
         "app": None,
         "device": None,
         "os_version": None,
-        "deviceOrientation": None,
+        "deviceOrientation": "PORTRAIT",
         "project": None,
         "build": None,
         "name": None,
@@ -110,7 +110,7 @@ class BsCapDataGen(BaseCapDataGen):
         self.build = build
         self.name = name
 
-    def get_bs_cap(self) -> dict:
+    def get_bs_caps(self) -> dict:
         """
         :return:
         """

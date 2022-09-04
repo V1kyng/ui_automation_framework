@@ -35,48 +35,26 @@ def device(request):
     return request.config.getoption("--device")
 
 
-def init_driver_session(app, device):
+def driver_setup(app: str, device: str):
     logger.info("Driver session setup")
     logger.info("Configuring desired capabilities")
     capabilities = Capabilities()
-    desired_caps = {}
-    driver = None
-
     logger.info("Initiating Appium driver")
-    if os.getenv('PYTEST_XDIST_WORKER'):
-        capabilities.get_xdist_capabilities(app, device)
 
-    elif app == 'ios':
-        logger.debug("Prepare IOS capabilities")
-        desired_caps = capabilities.get_ios_capabilities(device)
-
-    elif app == 'android':
-        logger.debug("Prepare Android capabilities")
-        desired_caps = capabilities.get_android_capabilities(device)
-
-    if device == "bs":
-        logger.debug("Connecting to browserstack")
-        print("Connecting to browserstack")
-
-        driver = appium_driver.Remote(
-            command_executor="http://hub-cloud.browserstack.com/wd/hub",
-            desired_capabilities=desired_caps)
-        logger.debug("Connection success")
-        print("Connection success")
-
-    elif device != "bs":
-        driver = appium_driver.Remote("http://127.0.0.1:4723/wd/hub", desired_caps)
-
-    logger.info("Initiated successfully")
+    desired_caps = capabilities.get_capabilities(device=device,
+                                                 app=app)
+    driver = appium_driver.Remote(
+        command_executor=capabilities.CURRENT_EXECUTOR,
+        desired_capabilities=desired_caps)
 
     driver.implicitly_wait(5)
-    print("Driver setup success")
+    logger.info("Driver setup success")
     return driver
 
 
 @pytest.fixture(scope='session', autouse=True)
-def driver_setup(request, app, device):
-    driver = init_driver_session(app, device)
+def driver(request, app, device):
+    driver = driver_setup(app=app, device=device)
     yield driver
     print("Driver quit")
     status_str = "failed" if request.node.testsfailed else "passed"

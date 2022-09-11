@@ -6,7 +6,7 @@ import pymysql
 import requests
 from sshtunnel import SSHTunnelForwarder
 
-from settings import *
+#from settings import *
 
 
 def db(query):

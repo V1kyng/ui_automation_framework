@@ -1,4 +1,4 @@
-from ui_framework.src.helpers.app import App
+from src.helpers.app import App
 from src.screens.ios.allow_location import AllowLocationScreen
 from src.screens.ios.notification_screen import NotificationScreen
 from src.screens.ios.signin_button import SignInButtonScreen

@@ -4,7 +4,7 @@ import pytest
 from appium import webdriver as appium_driver
 
 from logger import get_logger
-from ui_framework.capabilities import Capabilities
+from capabilities import Capabilities
 
 logger = get_logger()
 

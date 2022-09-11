@@ -4,7 +4,7 @@ import os
 import requests
 
 # This directory is where you have all your results locally, generally named as `allure-results`
-from settings import ALLURE_SERVICE_HOST, ANDROID_RESULTS_DIR
+#from settings import ALLURE_SERVICE_HOST, ANDROID_RESULTS_DIR
 
 # This url is where the Allure container is deployed. We are using localhost as example
 

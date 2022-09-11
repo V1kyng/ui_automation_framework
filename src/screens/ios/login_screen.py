@@ -26,8 +26,11 @@ class LoginScreen(App):
     inputField = (MobileBy.ACCESSIBILITY_ID, 'input-email')
     passwordField = (MobileBy.ACCESSIBILITY_ID, 'input-password')
     loginButton = (MobileBy.XPATH, '//XCUIElementTypeStaticText[@name="LOGIN"]')
-
+    ENTER_BTN = (MobileBy.ACCESSIBILITY_ID, 'Войти')
     # LOGIN_PATIENT = Patient(phone="8888887766", password="00000000")
+
+    def click_to_login_btn(self):
+        self.find_element(self.ENTER_BTN).click()
 
     def session_login(self):
         patient = LoginScreen.LOGIN_PATIENT

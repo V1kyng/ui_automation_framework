@@ -1,6 +1,6 @@
 from appium import webdriver
 
-from settings import IOS_BS_DESIRED_CAPS
+#from settings import IOS_BS_DESIRED_CAPS
 
 
 class RemoteDriver():

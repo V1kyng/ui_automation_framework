@@ -6,6 +6,5 @@ class AllowLocationScreen(App):
     """
     location screen locators
     """
-
     skipLocationButton = (MobileBy.ACCESSIBILITY_ID, "Don’t Allow")
     permitLocationButton = (MobileBy.ACCESSIBILITY_ID, "Allow")

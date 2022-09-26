@@ -8,9 +8,6 @@ class SpecialistScreen(App):
     Specialist screen locators
     """
 
-    def __init__(self, driver):
-        super().__init__()
-
     dont_know_exactly = (MobileBy.ACCESSIBILITY_ID, "Точно не знаю")
     search_edit = (MobileBy.ACCESSIBILITY_ID, "Найти")
     search_bar = (MobileBy.ACCESSIBILITY_ID, "Введите ФИО врача")

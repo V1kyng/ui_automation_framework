@@ -1,7 +1,6 @@
 from appium.webdriver.common.mobileby import MobileBy
 
 from src.helpers.app import App
-from src.screens.ios.bottom_menu import BottomMenuScreen
 
 
 class HomeScreen(App):
@@ -10,10 +9,14 @@ class HomeScreen(App):
     """
 
     main_header = (MobileBy.ACCESSIBILITY_ID, 'Главная')
-    # doctors_bottom = (MobileBy.ACCESSIBILITY_ID, 'Врачи')
     doctors_bottom = (MobileBy.XPATH, '//XCUIElementTypeTabBar/XCUIElementTypeButton[@name="Врачи"]')
     online_consultation = (MobileBy.ACCESSIBILITY_ID, "Онлайн-консультация")
     analysis_button = (MobileBy.ACCESSIBILITY_ID, "Сдать анализы")
+    notification = (MobileBy.ACCESSIBILITY_ID, "Больше не показывать")
+    # notification = (MobileBy.XPATH, "//XCUIElementTypeAlert//XCUIElementTypeScrollView["
+    #                                 "2]//XCUIElementTypeOther//XCUIElementTypeOther[3]//XCUIElementTypeButton["
+    #                                 "@name='Больше не показывать']")
+    information_popup = (MobileBy.ACCESSIBILITY_ID, "Информация")
 
     carousel_maintenance = (MobileBy.XPATH, '//XCUIElementTypeStaticText[@name="Ведутся технические работы"]')
     carousel_liposuction = (MobileBy.XPATH, '//XCUIElementTypeStaticText[@name="Скидка 15% на липосакцию"]')
@@ -26,18 +29,13 @@ class HomeScreen(App):
     carousel_specificdoctor = (MobileBy.XPATH, '//XCUIElementTypeStaticText[contains(@name,"Врачи узкого профиля на дому")]')
     carousel_pharmacy = (MobileBy.XPATH, '//XCUIElementTypeStaticText[contains(@name,"Аптека в SmartMed")]')
 
-    def get_app_main_page(self):
-        App.click(self, BottomMenuScreen.home_option)
-        App.wait_until_exists(self, HomeScreen.main_header)
+    def go_to_online_consultation(self):
+        self.find_visible_elem(self.online_consultation).click()
 
-    def verify_image_shown(self):
-        App.wait_until_exists(self, HomeScreen.carousel_image_enabled)
-        assert len(App.elements(self, HomeScreen.carousel_image_enabled)) == 1
+    def find_main_header(self):
+        assert self.find_element(self.main_header)
 
-    def verify_image_hidden(self):
-        App.wait_until_exists(self, HomeScreen.carousel_image_enabled)
-        assert len(App.elements(self, HomeScreen.carousel_image_enabled)) > 1
-
-    def __init__(self, driver):
-        super().__init__()
+    def skip_notifications(self):
+        btn = self.find_clickable_element(self.notification)
+        btn.click()
 

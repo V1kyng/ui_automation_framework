@@ -1,10 +1,13 @@
 import os
+import time
 
 import pytest
 from appium import webdriver as appium_driver
 
-from logger import get_logger
 from capabilities import Capabilities
+from logger import get_logger
+from src.helpers.android.android_authorization import android_authorization
+from src.helpers.ios.ios_authorization import ios_authorization
 
 logger = get_logger()
 
@@ -47,7 +50,6 @@ def driver_setup(app: str, device: str):
         command_executor=capabilities.CURRENT_EXECUTOR,
         desired_capabilities=desired_caps)
 
-    driver.implicitly_wait(5)
     logger.info("Driver setup success")
     return driver
 
@@ -62,8 +64,31 @@ def driver(request, app, device):
         'browserstack_executor: {"action": "setSessionStatus", "arguments": '
         '{"status":"' + status_str + '", "reason":"Reason"}}'
     )
+
     logger.info("driver quit")
     driver.quit()
+
+
+@pytest.fixture(autouse=True, scope="session")
+def authorization(driver, app):
+    if app == "ios":
+        ios_authorization(driver)
+    else:
+        android_authorization(driver)
+
+
+@pytest.fixture(autouse=True, scope="function")
+def terminate_app(driver, app):
+    yield
+    if app == "ios":
+        from src.screens.ios.login_screen import LoginScreen
+    else:
+        from src.screens.android.login import LoginScreen
+        time.sleep(2)
+    login_screen = LoginScreen(driver)
+    driver.terminate_app("ru.medsi.smartmed.dev")
+    driver.launch_app()
+    login_screen.enter_pin()
 
 
 @pytest.hookimpl(tryfirst=True, hookwrapper=True)

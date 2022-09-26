@@ -26,7 +26,7 @@ class Capabilities:
 
         elif device == "bs":
             self.CURRENT_EXECUTOR = self.COMMAND_EXECUTOR["bs"]
-            caps = BsCapDataGen(app="bs://082ce1bbbc013aef850946c7b66d33fd686b6ca6",
+            caps = BsCapDataGen(app="bs://ebc838b43169950561cc647e09424ae3e8c1d300",
                                 device="Samsung Galaxy S20",
                                 os_version="10.0",
                                 project="Medsi Autotest",
@@ -48,7 +48,7 @@ class Capabilities:
                                 os_version="15.5",
                                 project="Medsi Autotest",
                                 build="Python iOS",
-                                name="Medsi iOS tests"
+                                name="Medsi iOS tests",
                                 )
             return caps.get_bs_caps()
 

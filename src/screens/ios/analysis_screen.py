@@ -11,46 +11,6 @@ class AnalysisScreen(App):
     CLINIC_SEARCH_REQUEST = 'мит'
     SEARCH_REQUEST_NEGATIVE = 'yyyyyyyy'
 
-    @staticmethod
-    def basket_check_item_counter(x: int) -> tuple:
-        """
-        check number of items in basket screen
-        :param x: int (number of items for checking)
-        :return: locator (MobileBy.ACCESSIBILITY_ID, string)
-        """
-        finals = "ов"
-        if x == 1:
-            result = "{} анализ".format(x)
-        else:
-            result = "{} анализ{}".format(x, finals)
-        return MobileBy.ACCESSIBILITY_ID, result
-
-    def basket_check_price(self, x: int):
-        # get sum of items price
-        items_price = 0
-        for i in range(x):
-            empty_str = ''
-            locator = (MobileBy.XPATH,
-                       "//XCUIElementTypeTable//XCUIElementTypeCell[{}]//XCUIElementTypeStaticText[2]".format(i + 1))
-            element = App.element(self, locator=locator)
-            for m in element.text:
-                if m.isdigit():
-                    empty_str = empty_str + m
-            items_price = int(items_price) + int(empty_str)
-        print(items_price)
-        # get basket sum
-        basket_sum_locator = (MobileBy.XPATH, "//XCUIElementTypeOther[2]//XCUIElementTypeOther//XCUIElementTypeOther"
-                                              "//XCUIElementTypeOther/XCUIElementTypeOther//XCUIElementTypeOther"
-                                              "//XCUIElementTypeStaticText[1]")
-        basket_sum_web_element = App.element(self, locator=basket_sum_locator)
-        empty_str2 = ''
-        for m in basket_sum_web_element.text:
-            if m.isdigit():
-                empty_str2 = empty_str2 + m
-        basket_sum = int(empty_str2)
-        print(basket_sum)
-        assert items_price == basket_sum, "sum of items not equal to basket sum"
-
     all_clear = (MobileBy.ACCESSIBILITY_ID, "Всё понятно")
     search_field = (MobileBy.ACCESSIBILITY_ID, "Название анализа")
     add_first_item = (MobileBy.ACCESSIBILITY_ID, "Добавить")
@@ -86,3 +46,47 @@ class AnalysisScreen(App):
 
     # first_item X=0 Y=97 width=390 height= 128 (X=304 - price)
     # second_item X=0 Y=224 width=390 height= 128 (X=304 - price)
+
+    @staticmethod
+    def basket_check_item_counter(x: int) -> tuple:
+        """
+        check number of items in basket screen
+        :param x: int (number of items for checking)
+        :return: locator (MobileBy.ACCESSIBILITY_ID, string)
+        """
+        finals = "ов"
+        if x == 1:
+            result = "{} анализ".format(x)
+        else:
+            result = "{} анализ{}".format(x, finals)
+        return MobileBy.ACCESSIBILITY_ID, result
+
+    def basket_check_price(self, x: int):
+        # get sum of items price
+        items_price = 0
+        for i in range(x):
+            empty_str = ''
+            locator = (MobileBy.XPATH,
+                       "//XCUIElementTypeTable//XCUIElementTypeCell[{}]//XCUIElementTypeStaticText[2]".format(i + 1))
+            element = App.find_element(self, locator=locator)
+            for m in element.text:
+                if m.isdigit():
+                    empty_str = empty_str + m
+            items_price = int(items_price) + int(empty_str)
+        print(items_price)
+        # get basket sum
+        basket_sum_locator = (MobileBy.XPATH, "//XCUIElementTypeOther[2]//XCUIElementTypeOther//XCUIElementTypeOther"
+                                              "//XCUIElementTypeOther/XCUIElementTypeOther//XCUIElementTypeOther"
+                                              "//XCUIElementTypeStaticText[1]")
+        basket_sum_web_element = App.find_element(self, locator=basket_sum_locator)
+        empty_str2 = ''
+        for m in basket_sum_web_element.text:
+            if m.isdigit():
+                empty_str2 = empty_str2 + m
+        basket_sum = int(empty_str2)
+        print(basket_sum)
+        assert items_price == basket_sum, "sum of items not equal to basket sum"
+
+
+
+

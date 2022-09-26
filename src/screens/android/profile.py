@@ -1,7 +1,6 @@
 from appium.webdriver.common.mobileby import MobileBy
 
 from src.helpers.app import App
-from src.model.AppDataModel import Patient
 from src.screens.android.fill_new_client_data import FillNewClientDataScreen
 
 
@@ -21,7 +20,7 @@ class ProfileScreen(FillNewClientDataScreen):
     profile_logout  = (MobileBy.ID, 'ru.mts.smartmed.dev:id/profile_settings_logout_item') # Выйти из профиля
     profile_exit = (MobileBy.ID, 'android:id/button1') # Выйти
 
-    def verify_user_data(self, patient: Patient):
+    def verify_user_data(self, patient):
         assert App.element(self, ProfileScreen.name_input).text == patient.name, \
             f"{App.element(self, ProfileScreen.name_input).text} vs {patient.name}"
         assert App.element(self, ProfileScreen.surname_input).text == patient.surname, \

@@ -9,13 +9,13 @@ class PatientScreen(App):
     Allow notification screen
     """
 
-    def __init__(self, driver):
-        super().__init__()
-
     patient_all_row = (MobileBy.XPATH, '//XCUIElementTypeOther[2]//XCUIElementTypeTable/XCUIElementTypeCell['
                                        '1]/XCUIElementTypeStaticText')
-    patient_from_list = (MobileBy.XPATH, '//XCUIElementTypeOther[2]//XCUIElementTypeTable/XCUIElementTypeCell['
-                                         '1]/XCUIElementTypeStaticText[2]')
+    patient_from_list = (MobileBy.XPATH, "/XCUIElementTypeApplication/XCUIElementTypeWindow["
+                                         "1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther["
+                                         "2]/XCUIElementTypeOther[2]/XCUIElementTypeTable/XCUIElementTypeCell")
+    # patient_from_list = (MobileBy.XPATH, '//XCUIElementTypeOther[2]//XCUIElementTypeTable/XCUIElementTypeCell['
+    #                                      '1]/XCUIElementTypeStaticText[2]')
     second_patient_from_list = (MobileBy.XPATH, '//XCUIElementTypeOther[2]//XCUIElementTypeTable/XCUIElementTypeCell['
                                                 '2]/XCUIElementTypeStaticText[2]')
     third_patient_from_list = (MobileBy.XPATH, '//XCUIElementTypeOther[2]//XCUIElementTypeTable/XCUIElementTypeCell['
@@ -37,5 +37,5 @@ class PatientScreen(App):
     ready = (MobileBy.XPATH, '//XCUIElementTypeWindow[1]//XCUIElementTypeButton')
     done = (MobileBy.ACCESSIBILITY_ID, "Готово")
 
-    def get_profile_name_xpath_by_value(self, value):
-        return (MobileBy.XPATH, '//XCUIElementTypeTable//XCUIElementTypeStaticText[@name="' + value + '"]')
+    def choose_first_patient(self):
+        self.click_to_element(self.patient_from_list)

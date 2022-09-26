@@ -3,7 +3,7 @@ import os
 
 class BaseCapDataGen:
     """
-
+    BASE Capabilities for browserstack
     """
     bs_caps = {
         "browserstack.user": "mihajlichenkova_qw6BhZ",
@@ -12,18 +12,17 @@ class BaseCapDataGen:
         "app": None,
         "device": None,
         "os_version": None,
-        "deviceOrientation": "PORTRAIT",
+        "deviceOrientation": "portrait",
         "project": None,
         "build": None,
         "name": None,
-        "noReset": False,
-        "autoDismissAlerts": True
+        "noReset": True
     }
 
 
 class AndroidCapDataGen(BaseCapDataGen):
     """
-
+    Android capabilities for real devices and emulators
     """
     ANDROID_APK_PATH: str = os.path.abspath('./data/apps/preprod.apk')
     ANDROID_UUID: str = "b64f97c5"
@@ -42,7 +41,7 @@ class AndroidCapDataGen(BaseCapDataGen):
 
     def get_android_caps(self) -> dict:
         """
-        :return:
+        :return: capabilities dict
         """
         android_caps_real_device_json = {
             "platformName": self.platform_name,
@@ -59,7 +58,7 @@ class AndroidCapDataGen(BaseCapDataGen):
 
 class IosCapDataGen(BaseCapDataGen):
     """
-
+    IOS capabilities for real devices and emulators
     """
     IOS_APP_PATH: str = os.path.abspath("./data/apps/iOS-RealDevice-NativeDemoApp-0.2.1.ipa")
     IOS_PLATFORM_NAME: str = "ios"
@@ -77,7 +76,7 @@ class IosCapDataGen(BaseCapDataGen):
 
     def get_ios_caps(self) -> dict:
         """
-        :return:
+        :return: capabilities dict
         """
         android_caps_real_device_json = {
             "platformName": self.platform_name,
@@ -112,7 +111,7 @@ class BsCapDataGen(BaseCapDataGen):
 
     def get_bs_caps(self) -> dict:
         """
-        :return:
+        :return: browserstack capabilities dict
         """
         bs_caps = self.bs_caps
         bs_caps.update({
@@ -121,6 +120,6 @@ class BsCapDataGen(BaseCapDataGen):
             "os_version": self.os_version,
             "project": self.project,
             "build": self.build,
-            "name": self.name
+            "name": self.name,
         })
         return bs_caps

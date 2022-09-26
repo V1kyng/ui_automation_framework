@@ -1,8 +1,6 @@
 from appium.webdriver.common.mobileby import MobileBy
 
 from src.helpers.app import App
-from src.model.AppDataModel import Patient
-from src.model.MedsiConstants import ClientType, Sex
 
 
 class FillNewClientDataScreen(App):
@@ -37,26 +35,23 @@ class FillNewClientDataScreen(App):
     name_invalid_warning = (MobileBy.XPATH, "//android.widget.TextView[contains(@text,'Поле может содержать буквы кириллицы или латиницы, цифры, дефис, пробел')]")
     bday_too_young = (MobileBy.XPATH, "//android.widget.TextView[contains(@text,'Регистрация в приложении разрешена только пользователям от 18 лет.')]")
 
-    def __init__(self, driver):
-        super().__init__(driver)
-        
-    def fillForm(self, patient: Patient):
-        App.click(self, FillNewClientDataScreen.client_type_input)
-        if patient.client_type == ClientType.NEW:
-            App.click(self, FillNewClientDataScreen.iam_new_client_option)
-        elif patient.client_type == ClientType.EXISTING:
-                App.click(self, FillNewClientDataScreen.iam_existing_client_option)
-        elif patient.client_type == ClientType.VOLUNTARY_HEALTH_INSURANCE:
-            App.click(self, FillNewClientDataScreen.i_have_voluntary_health_insurance)
-
-        App.click(self, FillNewClientDataScreen.sex_input)
-        if patient.sex == Sex.FEMALE:
-            App.click(self, FillNewClientDataScreen.sex_option_female)
-        else:
-            App.click(self, FillNewClientDataScreen.sex_option_male)
-        App.send_keys(self, FillNewClientDataScreen.bday_input, patient.bday)
-        App.send_keys(self, FillNewClientDataScreen.email_input, patient.email)
-        App.send_keys(self, FillNewClientDataScreen.name_input, patient.name)
-        App.send_keys(self, FillNewClientDataScreen.surname_input, patient.surname)
-        App.send_keys(self, FillNewClientDataScreen.middle_name_input, patient.middle_name)
-        App.send_keys(self, FillNewClientDataScreen.address_input, patient.address)
+    # def fillForm(self, patient):
+    #     App.click(self, FillNewClientDataScreen.client_type_input)
+    #     if patient.client_type == ClientType.NEW:
+    #         App.click(self, FillNewClientDataScreen.iam_new_client_option)
+    #     elif patient.client_type == ClientType.EXISTING:
+    #             App.click(self, FillNewClientDataScreen.iam_existing_client_option)
+    #     elif patient.client_type == ClientType.VOLUNTARY_HEALTH_INSURANCE:
+    #         App.click(self, FillNewClientDataScreen.i_have_voluntary_health_insurance)
+    #
+    #     App.click(self, FillNewClientDataScreen.sex_input)
+    #     if patient.sex == Sex.FEMALE:
+    #         App.click(self, FillNewClientDataScreen.sex_option_female)
+    #     else:
+    #         App.click(self, FillNewClientDataScreen.sex_option_male)
+    #     App.send_keys(self, FillNewClientDataScreen.bday_input, patient.bday)
+    #     App.send_keys(self, FillNewClientDataScreen.email_input, patient.email)
+    #     App.send_keys(self, FillNewClientDataScreen.name_input, patient.name)
+    #     App.send_keys(self, FillNewClientDataScreen.surname_input, patient.surname)
+    #     App.send_keys(self, FillNewClientDataScreen.middle_name_input, patient.middle_name)
+    #     App.send_keys(self, FillNewClientDataScreen.address_input, patient.address)

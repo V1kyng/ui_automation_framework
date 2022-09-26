@@ -18,6 +18,12 @@ class DateTimeHelper:
         """
         return str(self.today + 1)
 
+    def get_day_after_tomorrow(self) -> str:
+        """
+        :return: get next day from current date to choose date in calendar
+        """
+        return str(self.today + 2)
+
     def get_past_day(self) -> str:
         """
         :return: get past day from  current date to choose date in calendar

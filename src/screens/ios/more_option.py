@@ -2,6 +2,7 @@ from appium.webdriver.common.mobileby import MobileBy
 
 from src.helpers.app import App
 
+
 class MoreOptionScreen(App):
     """
     More option screen locators
@@ -15,8 +16,5 @@ class MoreOptionScreen(App):
     promocode = (MobileBy.ACCESSIBILITY_ID, 'Промокоды')
     settings = (MobileBy.ACCESSIBILITY_ID, 'Настройки')
     help = (MobileBy.ACCESSIBILITY_ID, 'Помощь')
-
-    def __init__(self, driver):
-        super().__init__()
 
 

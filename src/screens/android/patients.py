@@ -14,3 +14,7 @@ class PatientScreen(App):
     patient_user_name = (MobileBy.ID, "ru.mts.smartmed.dev:id/allInformationUserName")
     patient_profile_name = (MobileBy.ID, "ru.mts.smartmed.dev:id/user_name_menu") # root_user
 
+    def choose_first_patient(self):
+        patient_btn = self.find_text(locator=self.patient_from_list,
+                                     timeout=5)
+        patient_btn.click()

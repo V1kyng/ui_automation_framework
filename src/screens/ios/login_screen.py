@@ -1,76 +1,76 @@
-import time
+from selenium.webdriver import ActionChains
+from selenium.webdriver.common.keys import Keys
 
 from appium.webdriver.common.mobileby import MobileBy
 from src.helpers.app import App
-from src.helpers.ios.common import Common
-from src.screens.ios.allow_location import AllowLocationScreen
-from src.screens.ios.bottom_menu import BottomMenuScreen
-from src.screens.ios.common import CommonScreen
-from src.screens.ios.home import HomeScreen
-from src.screens.ios.notification_screen import NotificationScreen
-from src.model.AppDataModel import Patient
-from src.screens.ios.patient import PatientScreen
-from src.screens.ios.profile import ProfileScreen
-from src.screens.ios.send_sms_code import SendSmsCodeScreen
-from src.screens.ios.signin_button import SignInButtonScreen
+
 from src.screens.ios.signin_password import SignInPasswordScreen
 from src.screens.ios.signin_phone import SignInPhoneScreen
-from src.screens.ios.welcome import WelcomeTutorialScreen
+from src.data.patient import Patient
 
 
 class LoginScreen(App):
     """
     login screen locators
     """
-    LOGIN_PATIENT = Patient(phone="8888887766", password="00000000")
-    inputField = (MobileBy.ACCESSIBILITY_ID, 'input-email')
-    passwordField = (MobileBy.ACCESSIBILITY_ID, 'input-password')
-    loginButton = (MobileBy.XPATH, '//XCUIElementTypeStaticText[@name="LOGIN"]')
-    ENTER_BTN = (MobileBy.ACCESSIBILITY_ID, 'Войти')
-    # LOGIN_PATIENT = Patient(phone="8888887766", password="00000000")
+
+    inputField = (MobileBy.ACCESSIBILITY_ID, "input-email")
+    passwordField = (MobileBy.ACCESSIBILITY_ID, "input-password")
+    loginButton = (MobileBy.XPATH, "//XCUIElementTypeStaticText[@name='LOGIN']")
+    ENTER_BTN = (MobileBy.ACCESSIBILITY_ID, "Войти")
+    ENTER_SMS_FIELD = (MobileBy.IOS_PREDICATE, "type == 'XCUIElementTypeTextField'")
+    SMS_SCREEN_HEADER = (MobileBy.ACCESSIBILITY_ID, "Введите код из смс")
+    ZERO_BTN = (MobileBy.ACCESSIBILITY_ID, "0")
+    ENTER_PIN = (MobileBy.ACCESSIBILITY_ID, "Создайте код доступа")
+    ENTER_PIN_AGAIN = (MobileBy.ACCESSIBILITY_ID, "Повторите код доступа")
+    ENTER_PIN_SECOND = (MobileBy.ACCESSIBILITY_ID, "Введите код доступа")
+    NOT_ALLOW = (MobileBy.ACCESSIBILITY_ID, "Don’t Allow")
+    ALLOW = (MobileBy.ACCESSIBILITY_ID, "Allow")
+    INFO_MSG = (MobileBy.ACCESSIBILITY_ID, "Notifications may include alerts, sounds and icon badges. These can be "
+                                           "configured in Settings.")
 
     def click_to_login_btn(self):
-        self.find_element(self.ENTER_BTN).click()
+        if self.find_element(self.ENTER_BTN):
+            self.click_to_element(self.ENTER_BTN)
 
-    def session_login(self):
-        patient = LoginScreen.LOGIN_PATIENT
-        # After logout and login repeat if-steps below is removed
-        if App.is_exist(self, AllowLocationScreen.skipLocationButton, expected=True, n=2) == True:
-            App.click(self, AllowLocationScreen.skipLocationButton)
-            App.click(self, WelcomeTutorialScreen.skip_tutorial_button)
-        else:
-            pass
-        time.sleep(5)
-        if App.is_exist(self, SignInButtonScreen.button):
-            App.click(self, SignInButtonScreen.button)
-            App.click(self, SignInPhoneScreen.phone_input)
-            App.send_keys(self, SignInPhoneScreen.phone_input, patient.phone)
-            App.tap_by_coordinates(self, x=163, y=319)
-            App.click(self, SignInPhoneScreen.next_button)
-            App.send_keys(self, SignInPasswordScreen.password_input, patient.password)
-            App.tap_by_coordinates(self, x=163, y=319)
-            App.click(self, SignInPasswordScreen.signin_button)
-            code = App.get_activation_code(self, patient.phone).split(":")[1].strip()
-            App.send_keys(self, SendSmsCodeScreen.code_frame, code)
-            # create code after install
-            for i in range(2):
-                for i in range(4):
-                    App.click(self, CommonScreen.code_zero)
-        else:
-            # entering installed code
-            for i in range(4):
-                App.click(self, CommonScreen.code_zero)
-        Common.skip_notifications(self)
+    def fill_phone_number(self):
+        self.set_field(SignInPhoneScreen.phone_input, Patient.PHONE)
+        while self.find_text(SignInPhoneScreen.phone_input).text != Patient.PHONE:
+            self.click_to_element(SignInPhoneScreen.clear_button)
+            self.set_field(SignInPhoneScreen.phone_input, Patient.PHONE)
+        self.tap_by_coordinates(x=163, y=319)
+        self.click_to_element(SignInPhoneScreen.next_button)
 
-    def profile_logout(self, patient: Patient):
-        HomeScreen.get_app_main_page(self)
-        if App.is_exist(self, NotificationScreen.skipNotificationSettingsRu, expected=True, n=2):
-            App.click(self, NotificationScreen.skipNotificationSettingsRu)
-        if App.is_exist(self, NotificationScreen.skipNotificationButton, expected=True, n=2):
-            App.click(self, NotificationScreen.skipNotificationButton)
-        App.wait_until_exists(self, BottomMenuScreen.more_option)
-        App.click(self, BottomMenuScreen.more_option)
-        App.click(self, PatientScreen.get_profile_name_xpath_by_value(self, patient.name))
-        App.swipe_top_to_bottom(self)
-        App.click(self, ProfileScreen.profile_logout)
-        App.click(self, ProfileScreen.profile_exit)
+    def fill_password_field(self):
+        self.set_field(SignInPasswordScreen.password_input, Patient.PASSWORD)
+        self.click_to_element(SignInPasswordScreen.hidden_password)
+        self.find_visible_elem(SignInPasswordScreen.password_inside)
+        while self.find_visible_elem(SignInPasswordScreen.password_inside).text != Patient.PASSWORD:
+            action = ActionChains(self.driver)
+            action.send_keys_to_element(SignInPasswordScreen.password_inside,
+                                        Keys.CONTROL + 'a', Keys.BACKSPACE)
+            action.release()
+            self.set_field(SignInPasswordScreen.password_inside, Patient.PASSWORD)
+        self.tap_by_coordinates(x=163, y=319)
+        self.click_to_element(SignInPasswordScreen.signin_button)
+
+    def enter_sms_code(self, code):
+        self.set_field(self.ENTER_SMS_FIELD, code)
+
+    def enter_login_pin(self):
+        self.find_text(self.ENTER_PIN)
+        for i in range(0, 4):
+            self.click_to_element(self.ZERO_BTN)
+        self.find_text(self.ENTER_PIN_AGAIN)
+        for i in range(0, 4):
+            self.click_to_element(self.ZERO_BTN)
+
+    def enter_pin(self):
+        if self.until_element_invisible(self.SMS_SCREEN_HEADER):
+            for i in range(0, 4):
+                self.click_to_element(self.ZERO_BTN)
+
+    def dont_allow_notification(self):
+        button = self.find_clickable_element(self.NOT_ALLOW)
+        button.click()
+

@@ -1,0 +1,610 @@
+1663093217917	geckodriver	INFO	Listening on 127.0.0.1:49947
+1663093217922	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofilelj2oas"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+1663093219069	Marionette	INFO	Marionette enabled
+1663093219075	Marionette	INFO	Listening on port 34937
+Read port: 34937
+1663093219233	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilelj2oas/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://predprod-dev.smartmed.pro."
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2013\"  data: no]"
+1663093309480	Marionette	INFO	Stopped listening on port 34937
+1663093348989	geckodriver	INFO	Listening on 127.0.0.1:34589
+1663093349997	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofiler3jksU"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+1663093351119	Marionette	INFO	Marionette enabled
+1663093351127	Marionette	INFO	Listening on port 41005
+Read port: 41005
+1663093351308	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofiler3jksU/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://predprod-dev.smartmed.pro."
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2013\"  data: no]"
+1663093389689	Marionette	INFO	Stopped listening on port 41005
+1663093469893	geckodriver	INFO	Listening on 127.0.0.1:57077
+1663093469900	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofilec0RyWE"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+1663093471049	Marionette	INFO	Marionette enabled
+1663093471059	Marionette	INFO	Listening on port 45487
+Read port: 45487
+1663093471215	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilec0RyWE/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://predprod-dev.smartmed.pro."
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2013\"  data: no]"
+1663093503928	Marionette	INFO	Stopped listening on port 45487
+1663093950102	geckodriver	INFO	Listening on 127.0.0.1:36547
+1663093951108	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofilecvLDLf"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+1663093952158	Marionette	INFO	Marionette enabled
+1663093952164	Marionette	INFO	Listening on port 38323
+Read port: 38323
+1663093952343	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilecvLDLf/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://predprod-dev.smartmed.pro."
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2013\"  data: no]"
+1663093968531	Marionette	INFO	Stopped listening on port 38323
+1663094076921	geckodriver	INFO	Listening on 127.0.0.1:43885
+1663094077928	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofile3jIXCa"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+1663094078971	Marionette	INFO	Marionette enabled
+1663094078977	Marionette	INFO	Listening on port 46349
+Read port: 46349
+1663094079147	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile3jIXCa/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://predprod-dev.smartmed.pro."
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2013\"  data: no]"
+1663094111237	Marionette	INFO	Stopped listening on port 46349
+1663094174808	geckodriver	INFO	Listening on 127.0.0.1:49549
+1663094175816	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofileao2VhR"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+1663094176921	Marionette	INFO	Marionette enabled
+1663094176939	Marionette	INFO	Listening on port 46549
+Read port: 46549
+1663094177092	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileao2VhR/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://predprod-dev.smartmed.pro."
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2013\"  data: no]"
+1663094234786	Marionette	INFO	Stopped listening on port 46549
+1663094543923	geckodriver	INFO	Listening on 127.0.0.1:43777
+1663094544928	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofiletZvH58"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+1663094545973	Marionette	INFO	Marionette enabled
+1663094545979	Marionette	INFO	Listening on port 40575
+Read port: 40575
+1663094546129	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofiletZvH58/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://predprod-dev.smartmed.pro."
+1663094629614	geckodriver	INFO	Listening on 127.0.0.1:51467
+1663094630620	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofile3l2W8k"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+1663094631609	Marionette	INFO	Marionette enabled
+1663094631635	Marionette	INFO	Listening on port 39811
+Read port: 39811
+1663094631795	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile3l2W8k/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://predprod-dev.smartmed.pro."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://predprod-dev.smartmed.pro."
+1663094637064	Marionette	INFO	Stopped listening on port 39811
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2013\"  data: no]"
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2013\"  data: no]"
+1663096883141	Marionette	INFO	Stopped listening on port 40575
+1663097171178	geckodriver	INFO	Listening on 127.0.0.1:55581
+1663097172187	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofilerJOrIl"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+1663097173091	Marionette	INFO	Marionette enabled
+1663097173096	Marionette	INFO	Listening on port 43827
+Read port: 43827
+1663097173359	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilerJOrIl/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://predprod-dev.smartmed.pro."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://predprod-dev.smartmed.pro."
+1663097179733	Marionette	INFO	Stopped listening on port 43827
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2013\"  data: no]"
+1663097830033	geckodriver	INFO	Listening on 127.0.0.1:40687
+1663097831041	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofileGMX8C1"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+1663097831971	Marionette	INFO	Marionette enabled
+1663097831976	Marionette	INFO	Listening on port 42061
+Read port: 42061
+1663097832124	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileGMX8C1/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://predprod-dev.smartmed.pro."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://predprod-dev.smartmed.pro."
+1663097838831	Marionette	INFO	Stopped listening on port 42061
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2013\"  data: no]"
+1663098021643	geckodriver	INFO	Listening on 127.0.0.1:47575
+1663098022651	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofilekKRb1i"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+1663098023547	Marionette	INFO	Marionette enabled
+1663098023554	Marionette	INFO	Listening on port 35151
+Read port: 35151
+1663098023825	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilekKRb1i/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://predprod-dev.smartmed.pro."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://predprod-dev.smartmed.pro."
+1663098030329	Marionette	INFO	Stopped listening on port 35151
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2013\"  data: no]"
+1663177461239	geckodriver	INFO	Listening on 127.0.0.1:48077
+1663177462249	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofileXHpsCs"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+1663177463427	Marionette	INFO	Marionette enabled
+1663177463434	Marionette	INFO	Listening on port 40175
+Read port: 40175
+1663177463620	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileXHpsCs/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://predprod-dev.smartmed.pro."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://predprod-dev.smartmed.pro."
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2013\"  data: no]"
+1663177473987	Marionette	INFO	Stopped listening on port 40175
+1663180329168	geckodriver	INFO	Listening on 127.0.0.1:52939
+1663180330178	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofileVhsPBW"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+1663180331081	Marionette	INFO	Marionette enabled
+1663180331090	Marionette	INFO	Listening on port 41947
+Read port: 41947
+1663180331348	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileVhsPBW/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://predprod-dev.smartmed.pro."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://predprod-dev.smartmed.pro."
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2013\"  data: no]"
+1663180347974	Marionette	INFO	Stopped listening on port 41947
+1663180512244	geckodriver	INFO	Listening on 127.0.0.1:58653
+1663180512249	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofileFDSeC2"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+1663180513095	Marionette	INFO	Marionette enabled
+1663180513103	Marionette	INFO	Listening on port 32903
+Read port: 32903
+1663180513235	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileFDSeC2/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2013\"  data: no]"
+1663180541431	Marionette	INFO	Stopped listening on port 32903
+JavaScript error: chrome://remote/content/marionette/cert.js, line 57: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1663180666652	geckodriver	INFO	Listening on 127.0.0.1:50079
+1663180667659	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofileoP7Vxp"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+1663180668627	Marionette	INFO	Marionette enabled
+1663180668632	Marionette	INFO	Listening on port 43045
+Read port: 43045
+1663180668765	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileoP7Vxp/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://predprod-dev.smartmed.pro."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://predprod-dev.smartmed.pro."
+1663180674969	Marionette	INFO	Stopped listening on port 43045
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2013\"  data: no]"
+1663181165592	geckodriver	INFO	Listening on 127.0.0.1:36409
+1663181165597	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofileF9kZrm"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+1663181166621	Marionette	INFO	Marionette enabled
+1663181166628	Marionette	INFO	Listening on port 42187
+Read port: 42187
+1663181166763	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileF9kZrm/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://predprod-dev.smartmed.pro."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://predprod-dev.smartmed.pro."
+1663181172411	Marionette	INFO	Stopped listening on port 42187
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2013\"  data: no]"
+1663181472225	geckodriver	INFO	Listening on 127.0.0.1:34121
+1663181472231	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofileECZvBD"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+1663181473359	Marionette	INFO	Marionette enabled
+1663181473366	Marionette	INFO	Listening on port 43387
+Read port: 43387
+1663181473522	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileECZvBD/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://predprod-dev.smartmed.pro."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://predprod-dev.smartmed.pro."
+1663181478862	Marionette	INFO	Stopped listening on port 43387
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2013\"  data: no]"
+1663181819666	geckodriver	INFO	Listening on 127.0.0.1:53119
+1663181820672	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofilet1ogze"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+1663181821708	Marionette	INFO	Marionette enabled
+1663181821713	Marionette	INFO	Listening on port 41759
+Read port: 41759
+1663181821864	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilet1ogze/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://predprod-dev.smartmed.pro."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://predprod-dev.smartmed.pro."
+1663181827278	Marionette	INFO	Stopped listening on port 41759
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2013\"  data: no]"
+1663182287722	geckodriver	INFO	Listening on 127.0.0.1:55353
+1663182288728	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofilegmBD36"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+1663182289658	Marionette	INFO	Marionette enabled
+1663182289663	Marionette	INFO	Listening on port 44241
+Read port: 44241
+1663182289801	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilegmBD36/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://predprod-dev.smartmed.pro."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://predprod-dev.smartmed.pro."
+1663182294698	Marionette	INFO	Stopped listening on port 44241
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2013\"  data: no]"
+1663182701359	geckodriver	INFO	Listening on 127.0.0.1:45293
+1663182701364	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofileVLJo8e"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+1663182702396	Marionette	INFO	Marionette enabled
+1663182702402	Marionette	INFO	Listening on port 37907
+Read port: 37907
+1663182702533	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileVLJo8e/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://predprod-dev.smartmed.pro."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://predprod-dev.smartmed.pro."
+1663182707380	Marionette	INFO	Stopped listening on port 37907
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2013\"  data: no]"
+1663183142183	geckodriver	INFO	Listening on 127.0.0.1:41449
+1663183142187	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofileoe6cdS"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+1663183143057	Marionette	INFO	Marionette enabled
+1663183143066	Marionette	INFO	Listening on port 40689
+Read port: 40689
+1663183143195	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileoe6cdS/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://predprod-dev.smartmed.pro."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://predprod-dev.smartmed.pro."
+1663183157597	Marionette	INFO	Stopped listening on port 40689
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2013\"  data: no]"
+1663183401688	geckodriver	INFO	Listening on 127.0.0.1:58969
+1663183402697	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofileu2kP4f"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+1663183403630	Marionette	INFO	Marionette enabled
+1663183403641	Marionette	INFO	Listening on port 44751
+Read port: 44751
+1663183403767	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileu2kP4f/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://predprod-dev.smartmed.pro."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://predprod-dev.smartmed.pro."
+1663183408788	Marionette	INFO	Stopped listening on port 44751
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2013\"  data: no]"
+1663272393123	geckodriver	INFO	Listening on 127.0.0.1:50401
+1663272394130	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofilehdy6J6"
+*** You are running in headless mode.
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+1663272394908	Marionette	INFO	Marionette enabled
+1663272394914	Marionette	INFO	Listening on port 43117
+Read port: 43117
+1663272395087	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilehdy6J6/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://predprod-dev.smartmed.pro."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://predprod-dev.smartmed.pro."
+1663272399970	Marionette	INFO	Stopped listening on port 43117
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2013\"  data: no]"
+1663276818559	geckodriver	INFO	Listening on 127.0.0.1:34463
+1663276818564	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofileeNg59P"
+*** You are running in headless mode.
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+1663276819140	Marionette	INFO	Marionette enabled
+1663276819148	Marionette	INFO	Listening on port 38491
+Read port: 38491
+1663276819304	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileeNg59P/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://predprod-dev.smartmed.pro."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://predprod-dev.smartmed.pro."
+1663276824331	Marionette	INFO	Stopped listening on port 38491
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2013\"  data: no]"
+1663277078416	geckodriver	INFO	Listening on 127.0.0.1:47551
+1663277078422	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofilevBO4Jb"
+*** You are running in headless mode.
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+1663277078981	Marionette	INFO	Marionette enabled
+1663277078987	Marionette	INFO	Listening on port 38151
+Read port: 38151
+1663277079130	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilevBO4Jb/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: services.settings: 
+  main/query-stripping Signature failed  TypeError: NetworkError: Network request failed
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://predprod-dev.smartmed.pro."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://predprod-dev.smartmed.pro."
+1663277083595	Marionette	INFO	Stopped listening on port 38151
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2013\"  data: no]"
+1663277370462	geckodriver	INFO	Listening on 127.0.0.1:46031
+1663277370468	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofileQCRhdK"
+*** You are running in headless mode.
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+1663277371036	Marionette	INFO	Marionette enabled
+1663277371042	Marionette	INFO	Listening on port 45617
+Read port: 45617
+1663277371194	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileQCRhdK/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://predprod-dev.smartmed.pro."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://predprod-dev.smartmed.pro."
+1663277375647	Marionette	INFO	Stopped listening on port 45617
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2013\"  data: no]"
+1663277670615	geckodriver	INFO	Listening on 127.0.0.1:44689
+1663277671623	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofilegG0jtE"
+*** You are running in headless mode.
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+1663277672132	Marionette	INFO	Marionette enabled
+1663277672138	Marionette	INFO	Listening on port 38849
+Read port: 38849
+1663277672426	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilegG0jtE/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://predprod-dev.smartmed.pro."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://predprod-dev.smartmed.pro."
+1663277676883	Marionette	INFO	Stopped listening on port 38849
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2013\"  data: no]"
+1663277991753	geckodriver	INFO	Listening on 127.0.0.1:56213
+1663277992761	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofilezqZGyO"
+*** You are running in headless mode.
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+1663277993307	Marionette	INFO	Marionette enabled
+1663277993313	Marionette	INFO	Listening on port 42191
+Read port: 42191
+1663277993457	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilezqZGyO/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://predprod-dev.smartmed.pro."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://predprod-dev.smartmed.pro."
+1663277997864	Marionette	INFO	Stopped listening on port 42191
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2013\"  data: no]"
+1663278462317	geckodriver	INFO	Listening on 127.0.0.1:51723
+1663278462324	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofile3scJmw"
+*** You are running in headless mode.
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+1663278462869	Marionette	INFO	Marionette enabled
+1663278462875	Marionette	INFO	Listening on port 42317
+Read port: 42317
+1663278463023	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile3scJmw/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://predprod-dev.smartmed.pro."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://predprod-dev.smartmed.pro."
+1663278467348	Marionette	INFO	Stopped listening on port 42317
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2013\"  data: no]"
+1663278806197	geckodriver	INFO	Listening on 127.0.0.1:42163
+1663278806202	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofilevoqn2N"
+*** You are running in headless mode.
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+1663278806767	Marionette	INFO	Marionette enabled
+1663278806773	Marionette	INFO	Listening on port 39407
+Read port: 39407
+1663278806906	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilevoqn2N/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://predprod-dev.smartmed.pro."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://predprod-dev.smartmed.pro."
+1663278811251	Marionette	INFO	Stopped listening on port 39407
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2013\"  data: no]"
+1663279404867	geckodriver	INFO	Listening on 127.0.0.1:46755
+1663279405873	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofile7SW3eB"
+*** You are running in headless mode.
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+1663279406365	Marionette	INFO	Marionette enabled
+1663279406371	Marionette	INFO	Listening on port 45147
+Read port: 45147
+1663279406493	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile7SW3eB/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://predprod-dev.smartmed.pro."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://predprod-dev.smartmed.pro."
+1663279410830	Marionette	INFO	Stopped listening on port 45147
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2013\"  data: no]"
+1663279562579	geckodriver	INFO	Listening on 127.0.0.1:58157
+1663279562585	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofile3IF2TN"
+*** You are running in headless mode.
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+1663279563093	Marionette	INFO	Marionette enabled
+1663279563099	Marionette	INFO	Listening on port 44855
+Read port: 44855
+1663279563381	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile3IF2TN/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://predprod-dev.smartmed.pro."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://predprod-dev.smartmed.pro."
+1663279567827	Marionette	INFO	Stopped listening on port 44855
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2013\"  data: no]"
+1663279888631	geckodriver	INFO	Listening on 127.0.0.1:55165
+1663279888637	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofiledr7ZaO"
+*** You are running in headless mode.
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+1663279889286	Marionette	INFO	Marionette enabled
+1663279889292	Marionette	INFO	Listening on port 35215
+Read port: 35215
+1663279889462	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofiledr7ZaO/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://predprod-dev.smartmed.pro."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://predprod-dev.smartmed.pro."
+1663279894236	Marionette	INFO	Stopped listening on port 35215
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2013\"  data: no]"
+1663280402619	geckodriver	INFO	Listening on 127.0.0.1:54131
+1663280403626	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofileB3UUI3"
+*** You are running in headless mode.
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+1663280404168	Marionette	INFO	Marionette enabled
+1663280404174	Marionette	INFO	Listening on port 35135
+Read port: 35135
+1663280404335	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileB3UUI3/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://predprod-dev.smartmed.pro."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://predprod-dev.smartmed.pro."
+1663280408807	Marionette	INFO	Stopped listening on port 35135
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2013\"  data: no]"
+1663280536628	geckodriver	INFO	Listening on 127.0.0.1:38017
+1663280536635	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofilekDOoym"
+*** You are running in headless mode.
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+1663280537257	Marionette	INFO	Marionette enabled
+1663280537264	Marionette	INFO	Listening on port 39541
+Read port: 39541
+1663280537442	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilekDOoym/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://predprod-dev.smartmed.pro."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://predprod-dev.smartmed.pro."
+1663280542325	Marionette	INFO	Stopped listening on port 39541
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2013\"  data: no]"
+JavaScript error: resource://gre/modules/UrlClassifierListManager.jsm, line 693: TypeError: this.tablesData[table] is undefined
+1663280702472	geckodriver	INFO	Listening on 127.0.0.1:56115
+1663280703479	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofileKvjoLo"
+*** You are running in headless mode.
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+1663280704062	Marionette	INFO	Marionette enabled
+1663280704070	Marionette	INFO	Listening on port 34043
+Read port: 34043
+1663280704227	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileKvjoLo/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://predprod-dev.smartmed.pro."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://predprod-dev.smartmed.pro."
+1663280708841	Marionette	INFO	Stopped listening on port 34043
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2013\"  data: no]"
+1663280883209	geckodriver	INFO	Listening on 127.0.0.1:34335
+1663280884216	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofileaYJm2j"
+*** You are running in headless mode.
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+1663280884798	Marionette	INFO	Marionette enabled
+1663280884806	Marionette	INFO	Listening on port 42319
+Read port: 42319
+1663280884984	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileaYJm2j/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://predprod-dev.smartmed.pro."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://predprod-dev.smartmed.pro."
+1663280889891	Marionette	INFO	Stopped listening on port 42319
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2013\"  data: no]"
+JavaScript error: resource://gre/modules/UrlClassifierListManager.jsm, line 693: TypeError: this.tablesData[table] is undefined
+1663281066221	geckodriver	INFO	Listening on 127.0.0.1:47363
+1663281066226	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofileYPlbR0"
+*** You are running in headless mode.
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+1663281066838	Marionette	INFO	Marionette enabled
+1663281066844	Marionette	INFO	Listening on port 40607
+Read port: 40607
+1663281067026	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileYPlbR0/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://predprod-dev.smartmed.pro."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://predprod-dev.smartmed.pro."
+1663281071583	Marionette	INFO	Stopped listening on port 40607
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2013\"  data: no]"
+1663281225231	geckodriver	INFO	Listening on 127.0.0.1:34205
+1663281225236	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofilesoZuAB"
+*** You are running in headless mode.
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+1663281225795	Marionette	INFO	Marionette enabled
+1663281225801	Marionette	INFO	Listening on port 37979
+Read port: 37979
+1663281225939	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilesoZuAB/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: services.settings: 
+  main/query-stripping Signature failed  TypeError: NetworkError: Network request failed
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://predprod-dev.smartmed.pro."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://predprod-dev.smartmed.pro."
+1663281230280	Marionette	INFO	Stopped listening on port 37979
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2013\"  data: no]"
+1663281644091	geckodriver	INFO	Listening on 127.0.0.1:46457
+1663281644097	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofile6AaLEk"
+*** You are running in headless mode.
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+1663281644659	Marionette	INFO	Marionette enabled
+1663281644666	Marionette	INFO	Listening on port 40169
+Read port: 40169
+1663281644827	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile6AaLEk/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://predprod-dev.smartmed.pro."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://predprod-dev.smartmed.pro."
+1663281649255	Marionette	INFO	Stopped listening on port 40169
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2013\"  data: no]"
+1663351411579	geckodriver	INFO	Listening on 127.0.0.1:59575
+1663351412586	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofile7ADeN0"
+*** You are running in headless mode.
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+1663351413160	Marionette	INFO	Marionette enabled
+1663351413167	Marionette	INFO	Listening on port 35577
+Read port: 35577
+1663351413324	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile7ADeN0/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://predprod-dev.smartmed.pro."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://predprod-dev.smartmed.pro."
+1663351418054	Marionette	INFO	Stopped listening on port 35577
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2013\"  data: no]"
